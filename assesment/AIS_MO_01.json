@@ -188,7 +188,7 @@
     "hint": "TestCase 3: Ensure that you are clicking on the search button "
   },
   {
-    "description": "TestCase 4: Verify that there are no buses from Bangalore to Ranchi.Select Bangalore as the departure location",
+    "description": "TestCase 4: Verify that there are no buses from Bangalore to Kathmandu.Select Bangalore as the departure location",
     "validations": [
       {
         "object_notation": "COMMAND",
@@ -205,12 +205,12 @@
     "hint": "TestCase 4: Ensure that you are sending bangl as departure location"
   },
   {
-    "description": "TestCase 4: Verify that there are no buses from Bangalore to Ranchi.Select Ranchi as the arrival location",
+    "description": "TestCase 4: Verify that there are no buses from Bangalore to Kathmandu.Select Kathmandu as the arrival location",
     "validations": [
       {
         "object_notation": "COMMAND",
         "operator": "contains",
-        "expected_value": "ran"
+        "expected_value": "kathma"
       },
       {
         "object_notation": "RESPONSE",
@@ -218,11 +218,11 @@
         "expected_value": "TypeElement"
       }
     ],
-    "error_out": "Select Ranchi as the arrival location",
-    "hint": "TestCase 4: Ensure that you are sending ran as the departure location"
+    "error_out": "Select Kathmandu as the arrival location",
+    "hint": "TestCase 4: Ensure that you are sending kathma as the departure location"
   },
   {
-    "description": "TestCase 4: Verify that there are no buses from Bangalore to Ranchi.Select the Correct Date",
+    "description": "TestCase 4: Verify that there are no buses from Bangalore to Kathmandu.Select the Correct Date",
     "validations": [
       {
         "object_notation": "COMMAND",
@@ -239,7 +239,7 @@
     "hint": "TestCase 4: Ensure that your are selecting 29 as the date in the month of travel"
   },
   {
-    "description": "TestCase 4: Verify that there are no buses from Bangalore to Ranchi.Click on the search button",
+    "description": "TestCase 4: Verify that there are no buses from Bangalore to Kathmandu.Click on the search button",
     "validations": [
       {
         "object_notation": "COMMAND",
@@ -256,7 +256,7 @@
     "hint": "TestCase 4: Ensure that you are clicking on the search button "
   },
   {
-    "description": "TestCase 4: Verify that there are no buses from Bangalore to Ranchi.Verify No buses found is displayed",
+    "description": "TestCase 4: Verify that there are no buses from Bangalore to Kathmandu.Verify No buses found is displayed",
     "validations": [
       {
         "object_notation": "COMMAND",
